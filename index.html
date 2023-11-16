@@ -47,7 +47,7 @@
         }
 
         tr:nth-child(even) {
-            background-color: rgb(242, 242, 242);
+            background-color: rgb(199, 173, 130);
         }
     </style>
 </head>
@@ -73,7 +73,7 @@
         mapboxgl.accessToken = 'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
         let map = new mapboxgl.Map({
             container: 'map', // container ID
-            style: 'mapbox://styles/mapbox/satellite-v9', // style URL
+            style: 'mapbox://styles/mapbox/outdoors-v11', // style URL
             zoom: 5.5, // starting zoom
             center: [-101.9116, 19.5665] // starting center
         });
@@ -102,7 +102,7 @@
                     'type': 'fill',
                     'source': 'Michoacan',
                     'paint': {
-                        'fill-color': '#0080ff', // blue color fill
+                        'fill-color': '#D2B48C', // blue color fill
                         'fill-opacity': 0.5
                     }
                 });
@@ -179,5 +179,6 @@
 </body>
 
 </html>
+
 
 
